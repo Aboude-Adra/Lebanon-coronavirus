@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Sen', sans-serif;
+}
+
+.popup-component {
+    min-width: 420px;
+    background-color: #292A2D;
+}
+
+.popup-component .header {
+    padding: 25px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.popup-component .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ececec;
+    padding: 25px;
+    border-radius: 20px 20px 0 0;
+}
+
+.popup-component .content .statistics {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.popup-component .content .statistics span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-component .content .statistics span:not(:last-child) {
+    margin-right: 30px;
+}
+
+.popup-component .content .statistics span h1 {
+    font-size: 50px;
+}
+
+.popup-component .content .statistics span p {
+    font-size: 15px;
+}
+
+#data-source {
+    padding-top: 20px;
+    padding-bottom: 0;
+    margin: 0;
+    align-self: flex-end;
+    font-size: 12px;
+}
+
+#data-source a {
+    color: #333;
+}
+
+#deaths {
+    color: rgb(233, 119, 145);
+}
+
+#recovered {
+    color: rgb(74, 233, 111);
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+  }
