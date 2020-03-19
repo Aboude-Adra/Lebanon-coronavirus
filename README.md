@@ -13,4 +13,4 @@ https://github.com/NovelCOVID/API
 
 ## Reusage
 feel free to reuse the published code and customize it for your own use.
-To change the country, replace `LB` in `country_code=LB` in line 3 of **popup/index.js** with your country code.
+To change the country, replace `Lebanon` in `countries/Lebanon` in line 3 of **popup/index.js** with your country.
