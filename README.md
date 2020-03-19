@@ -2,7 +2,7 @@
 A simple chrome extension to display the current Coronavirus stats in Lebanon.
 
 ## API used
-https://github.com/ExpDev07/coronavirus-tracker-api
+https://github.com/NovelCOVID/API
 
 ## Installation
 1. Download and extract the files
