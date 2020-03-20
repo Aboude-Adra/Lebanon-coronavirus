@@ -2,10 +2,7 @@ const fetchFromApi = async () => {
     return new Promise(async (res, rej) => {
         const response = await fetch("https://corona.lmao.ninja/countries/Lebanon");
         const json = await response.json();
-
-        // const confirmed = json.locations[0].latest.confirmed
-        // const deaths = json.locations[0].latest.deaths
-        // const recovered = json.locations[0].latest.recovered
+        
         const confirmed = json.cases
         const todayCases = json.todayCases
         const deaths = json.deaths
