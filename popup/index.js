@@ -1,8 +1,8 @@
 const fetchFromApi = async () => {
     return new Promise(async (res, rej) => {
-        const response = await fetch("https://corona.lmao.ninja/countries/Lebanon");
+        const response = await fetch("https://disease.sh/v3/covid-19/countries/Lebanon?yesterday=true&strict=true");
         const json = await response.json();
-        
+
         const confirmed = json.cases
         const todayCases = json.todayCases
         const deaths = json.deaths
